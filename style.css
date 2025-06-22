@@ -1,0 +1,203 @@
+@import url('https://fonts.googleapis.com/css2?family=Poetsen+One&display=swap');
+
+.poetsen-one-regular {
+    font-family: "Poetsen One", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+#navbar {
+    position: sticky;
+    top: 0;
+    left: 0;
+    z-index: 100;
+    padding: 0.5rem 2rem; 
+    box-shadow: 5px 5px 20px rgba(0, 0, 0, 0.5);
+    background: #E32934; /* Pepsi blue */
+}
+
+.navbar .navbar-brand {
+    font-size: 25px;
+    font-weight: 800;
+    color: black;
+}
+
+#navbarSupportedContent a {
+    color: black;
+    font-weight: 500;
+    border-bottom: 2px solid transparent;
+}
+
+#navbarSupportedContent a:hover {
+    border-bottom: 2px solid;
+}
+
+/* Adjust the width of the search input */
+#navbarSupportedContent form .form-control {
+    width: 250px; /* Adjust the width as per your requirement */
+    margin-right: 10px; /* Add some right margin for spacing */
+}
+
+/* Adjust the width of the Sign In button */
+#navbarSupportedContent .btn-gradient {
+    width: 90px; /* Adjust the width as per your requirement */
+    border-radius: 15px;
+    margin-left: 10px; /* Add some left margin for spacing */
+}
+
+
+section {
+    width: 100%;
+    min-height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+/***** Home *****/
+
+#home {
+    background: url('https://contact.pepsico.com/files/pepsi/documents/1701962330/pepsi_lineup.jpg');
+    background-size: cover;
+    background-position: center;
+    flex-direction: column;
+}
+
+#home h1 {
+    font-size: 100px;
+    background: black;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    letter-spacing: 3px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    text-shadow: 0px 1px 0px white,
+                 0px 2px 0px white,
+                 0px 3px 0px white,
+                 0px 4px 0px white,
+                 0px 5px 0px white,
+                 0px 6px 0px white;
+}
+
+#home h1:hover {
+    background: black;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+#home .input-group {
+    width: 40%;
+    height: 45px;
+}
+
+.btn-gradient {
+    background: #0048A3; /* Pepsi blue */
+    color: white !important;
+    box-shadow: 0px 4px 6px rgba(0,0,0,0.1) !important;
+    border: none;
+    padding: 0.5rem 1rem;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background 0.3s ease;
+}
+
+.btn-gradient:hover {
+    background: black;
+}
+
+/***** About *****/
+
+#about {
+    background: white;
+}
+
+#about h1 {
+    font-weight: 800;
+    font-size: 50px;
+    color: black;
+}
+
+#about p {
+    color: black;
+}
+
+/***** Books *****/
+
+#Books {
+    background: #0048A3; /* Pepsi blue */
+}
+
+#Books h1 {
+    font-size: 50px;
+    letter-spacing: 2px;
+    font-weight: 700;
+}
+
+#Books img {
+    width: 200px;
+    height: 200px;
+}
+
+.card {
+    width: 250px;
+    height: 300px;
+    background: white;
+    border: none;
+    box-shadow: 15px 20px 20px rgba(0, 0, 0, 0.3),
+                inset 4px 4px 10px white;
+    border-radius: 20px;
+    overflow: hidden;
+    justify-content: center;
+    align-items: center;
+    margin: 20px 60px;
+}
+
+.card:hover {
+    box-shadow: inset 5px 5px 10px rgba(0, 0, 0, 0.3),
+                inset -4px -4px 10px #F8F9D7;
+    transition: .2s;
+}
+
+/***** Contact *****/
+
+#contact {
+    width: 100%;
+    background: #E32934; /* Pepsi red */
+    padding: 50px 0;
+}
+
+#contact img {
+    height: 60%;
+    width: 50%;
+}
+
+.box {
+    width: 50%;
+    height: 50%;
+    background: #E32934; /* Pepsi red */
+    margin: auto;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+}
+
+#contact input, #contact textarea {
+    margin: 10px 0;
+}
+
+footer {
+    width: 100%;
+    height: 30px;
+    background: #0048A3; /* Pepsi blue */
+    text-align: center;
+    color: white;
+    padding: 3px;
+}
+
